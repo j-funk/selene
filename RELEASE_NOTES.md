@@ -1,8 +1,13 @@
 # Release notes 
 
-This is a document describing new functionality, bug fixes, breaking changes, etc. associated with Selene version releases from v0.5.0 onwards. 
+This is a document describing new functionality, bug fixes, breaking changes, etc. associated with Selene version releases from v0.5.2 onwards. 
 
-## Version 0.5.0
+## Version 0.5.2
+
+### Bug fixes
+- Fix Cython type error causing build issues
+
+## Version 0.5.1
 
 ### New functionality
 - `sampler.MultiSampler`: `MultiSampler` accepts any Selene sampler for each of the train, validation, and test partitions where previously `MultiFileSampler` only accepted `FileSampler`s. We will deprecate `MultiFileSampler` in our next major release. 
